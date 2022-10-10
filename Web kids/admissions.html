@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuyển Sinh</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <script src="main.js"></script>
+    <header>
+      <div class="hero">
+        <img src="img/logo.png" alt="logo" />
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="login.html">ĐĂNG NHẬP</a>
+              <a href="#">ĐĂNG KÝ</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="navbar-2">
+        <nav>
+          <ul id="main_menu">
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a href="introduce.html">GIỚI THIỆU</a></li>
+            <li><a href="#">CHƯƠNG TRÌNH</a></li>
+            <li><a href="service.html">CHĂM SÓC</a></li>
+            <li>
+              <a href="admissions.html" style="color: #42a998">TUYỂN SINH</a>
+            </li>
+            <li><a href="about.html">LIÊN HỆ</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="slider"></div>
+      <div class="content">
+        <div class="text">
+          <h2 style="color: #1d6f5a; text-align: center">
+            ĐĂNG KÝ NHẬN THÔNG TIN TƯ VẤN
+          </h2>
+          <br />
+          <h3 style="color: #555; text-align: center">
+            Nhà trường sẽ liên hệ với phụ huynh sớm nhất.
+          </h3>
+        </div>
+        <div class="button">
+          <p>HỌ VÀ TÊN BỐ MẸ:</p>
+          <input class="input" />
+          <p>SỐ ĐIỆN THOẠI LIÊN HỆ:</p>
+          <input class="input" />
+          <p>ĐỊA CHỈ EMAIL:</p>
+          <input class="input" />
+          <p>BỐ MẸ VUI LÒNG LỰA CHỌN CƠ SỞ BỐ MẸ ĐANG QUAN TÂM:</p>
+          <select class="input">
+            <option>► chọn cơ sở</option>
+            <option value="► Cơ sở 1: ">
+              ► Cơ sở 1:Lô F4-NT, Khu đô thị mới Tây Mỗ – Đại Mỗ, phường Tây Mỗ,
+              quận Nam Từ Liêm, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 2: ">
+              ► Cơ sở 2:Lô đất B3-MN02 Khu đô thị Gia Lâm, xã Đa Tốn, huyện Gia
+              Lâm, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 3: ">
+              ► Cơ sở 3:Lô đất E1.3, KĐT mới Cầu Giấy, Mỹ Đình 1, quận Nam Từ
+              Liêm, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 4: ">
+              ► Cơ sở 4:Đơn nguyên 3 – T36, KĐT Times City, 458 Minh Khai,
+              phường Vĩnh Tuy, quận Hai Bà Trưng, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 5: ">
+              ► Cơ sở 5:NP01 (T8) Times City, 460 Minh Khai, phường Vĩnh Tuy,
+              quận Hai Bà Trưng, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 6: ">
+              ► Cơ sở 6:Tầng 2, Tòa R5 KĐT Royal City, 72A Nguyễn Trãi, Thượng
+              Đình, quận Thanh Xuân, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 7: ">
+              ► Cơ sở 7:Lô TH 11, Khu đô thị Vinhomes Thăng Long, xã An Khánh,
+              huyện Hoài Đức, Thành phố Hà Nội
+            </option>
+            <option value="► Cơ sở 8: ">
+              ► Cơ sở 8:29 Liễu Giai, phường Ngọc Khánh, quận Ba Đình, Thành phố
+              Hà Nội
+            </option>
+          </select>
+          <p>NỘI DUNG QUAN TÂM:</p>
+          <textarea
+            cols="40"
+            rows="10"
+            style="width: 100%; height: 160px"
+          ></textarea>
+        </div>
+        <br />
+        <div class="list">
+          <input
+            class="styled"
+            type="button"
+            value="ĐĂNG KÝ NGAY!"
+            onclick="msg()"
+          />
+        </div>
+        <br />
+        <div>
+          <h3 style="color: #1d6f5a; text-align: center">
+            NHỮNG CÂU HỎI THƯỜNG GẶP
+          </h3>
+          <script>
+            function msg() {
+              alert(
+                "đăng ký thành công ! Nhà trường sẽ liên hệ với phụ huynh sớm nhất."
+              );
+            }
+          </script>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Thời hạn đăng ký của nhà trường là khi nào ?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+              style=""
+            >
+              <div class="accordion-body">
+                <strong
+                  >Căn cứ Thông báo số 145/TB-MNPM ngày 01 tháng 7 năm 2021 của
+                  Trường Mầm non Phú Mỹ về việc tuyển sinh năm học 2021 - 2022.
+                  Trường Mầm non Phú Mỹ công khai đường link đăng ký tuyển sinh
+                  năm học 2021 - 2022</strong
+                >
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Asland Academy tuyển sinh những cấp học nào.
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+              style=""
+            >
+              <div class="accordion-body">
+                <strong
+                  >Gia đình bạn sẽ có cơ hội trải nghiệm loại hình trang trại
+                  giáo dục .</strong
+                >
+                – đào tạo kỹ năng sống vô cùng thú vị. Địa điểm này vô cùng
+                thích hợp với những gia đình có con nhỏ. Các bạn nhỏ có thể thu
+                nhận thêm nhiều kiến thức về cuộc sống nông thôn. Chẳng hạn như:
+                làm quen với các con vật quen thuộc gà, trâu, thỏ, dê núi… Tổ
+                chức giã ngoại chính là một trong những trải nghiệm thú vị được
+                nhiều gia đình lựa chọn cho ngày nghỉ. Khi chưa biết lựa chọn
+                địa điểm nào? Hãy tham khảo bài viết trên nhé.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                tại sao bạn nên chọn Asland Academy ?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>Asland Academy</strong> Với mục tiêu học sinh yêu thích
+                môn học, Nhà trường xây dựng chương trình học theo đúng chuẩn Bộ
+                Giáo dục về phát triển khung năng lực của trẻ tiểu học. Các bài
+                giảng và nội dung học tập được thiết kế khoa học, hiện đại, đa
+                dạng và phong phú thu hút tối đa sự tham gia và hứng thú của học
+                sinh.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <footer class="footer-section">
+      <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="cta-text">
+                  <h4>Find us</h4>
+                  <span>số 3,ngõ 34,đường trâu quỳ,gia lâm,HN</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="fas fa-phone"></i>
+                <div class="cta-text">
+                  <h4>Call us</h4>
+                  <span>liên hệ:0335939378</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+              <div class="single-cta">
+                <i class="far fa-envelope-open"></i>
+                <div class="cta-text">
+                  <h4>Mail us</h4>
+                  <span>AslandAcademy@info.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+          <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+              <div class="footer-widget">
+                <div class="footer-logo">
+                  <a href="index.html"
+                    ><img src="img/logo.png" class="img-fluid" alt="logo"
+                  /></a>
+                </div>
+                <div class="footer-text">
+                  <p>
+                    Nhà trường xây dựng chương trình học theo đúng chuẩn Bộ Giáo
+                    dục về phát triển khung năng lực của trẻ tiểu học. Các bài
+                    giảng và nội dung học tập được thiết kế khoa học
+                  </p>
+                </div>
+                <div class="footer-social-icon">
+                  <span>Follow us</span>
+                  <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                  <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                  <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Useful Links</h3>
+                </div>
+                <ul>
+                  <li><a href="index.html">trang chủ</a></li>
+                  <li><a href="#">liên hệ</a></li>
+                  <li><a href="#">giới thiệu</a></li>
+                  <li><a href="#">chương trình</a></li>
+                  <li><a href="#">chăm sóc</a></li>
+                  <li><a href="#">tuyển sinh</a></li>
+                  <li><a href="#">đăng ký</a></li>
+                  <li><a href="#">hỏi đáp</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div class="footer-widget">
+                <div class="footer-widget-heading">
+                  <h3>Subscribe</h3>
+                </div>
+                <div class="footer-text mb-25">
+                  <p>Để lại gmail hoặc SĐT chúng tôi sẽ liên hệ tư vấn.</p>
+                </div>
+                <div class="subscribe-form">
+                  <form action="#">
+                    <input type="text" placeholder="Gmail & sdt" />
+                    <button><i class="fab fa-telegram-plane"></i></button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div class="copyright-text">
+                <p>
+                  Copyright &copy; 2018, All Right Reserved
+                  <a href="https://codepen.io/anupkumar92/">Anup</a>
+                </p>
+              </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="index.html">trang chủ</a></li>
+                  <li><a href="about.html">giới thiệu</a></li>
+                  <li><a href="admissions.html">tuyển sinh</a></li>
+                  <li><a href="#">liên hệ</a></li>
+                  <li><a href="service.html">chăm sóc</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

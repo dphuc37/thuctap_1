@@ -5,10 +5,6 @@
     font-family: sans-serif;
 }
 
-body{
-    background-color:;
-}
-
 .backg{
     width: 100%;
     height: 100vh;
@@ -57,7 +53,7 @@ body{
 
 }
 
-.navbar ul li a:hover{;
+.navbar ul li a:hover {
     color: #EFBF59;
     border-radius: 5px;
 }
@@ -207,45 +203,270 @@ form .txt_feild{
 Trang giới thiệu
 */
 
-.intro h1{
-    padding: 15% 0 30px;
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    padding: 4% 0 4%;
     text-align: center;
-    color: #EFBF59;
+    background-color: #F5F5F5	;
 }
 
-.intro img{
-    padding-left: 23.2%;
-    padding-bottom: 20px;
-
+.intro_text{
+    line-height: 1.5rem;
+    padding: 0 30% 0 30%;
+    background-color: #F5F5F5;
 }
 
-.intro .intro_text{
-    padding: 0 23% 0 23.5%;
+.intro_backg{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    background-repeat: no-repeat;
 }
 
-.intro h4{
-    padding-bottom: 10px;
-    line-height: 1.5
+.feature_container{
+    height: 700px;
+    display: flex;
+    background-color: #F5F5F5	;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.intro .text_1{
-    padding-bottom: 20px;
-    line-height: 1.5
-}
-.intro .text_2{
-    padding-bottom: 20px ;
-    line-height: 1.5
-}
-.intro .text_3{
-    padding-bottom: 20px ;
-    line-height: 1.5;
-}
-.intro .text_4{
-    padding-bottom: 20px ;
-    line-height: 1.5
+.feature_box{
+    width: 18%;
+    background-color: white;
+    border-radius: 10px;
 }
 
+.feature_box img{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+}
 
+.feature_box p{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+    padding: 30px 0 30px;
+    border-radius: 5px;
+    line-height: 150%;
+}
+
+/*
+tuyen sinh
+*/
+
+.slider{
+    width: 100%;
+    height: 65vh;
+    background-image: url(https://mapleleaf.edu.vn/wp-content/uploads/2021/11/DAT_4760-scaled.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover !important;
+}
+.content{
+    height: 100%;
+    width: 900px;
+    padding: 30px;
+    margin: 0px auto;
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+}
+.button{
+    margin-top: 25px;
+}
+.button .input{
+    border: 1px solid #afafaf;
+    padding: 0 0.75em;
+    height: 2.507em;
+    font-size: .97em;
+    width: 100%;
+    margin-bottom: 1em;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    background-color: #46d441;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color:#2bff00;;
+}
+
+.styled:active {box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: white;
+  position: relatve;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #42A998;
+  border: 1px solid #42A998;
+  color: rgb(255, 255, 255);
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #42A998;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #ffffff;
+}
 
 
 
